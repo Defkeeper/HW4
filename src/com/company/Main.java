@@ -18,6 +18,6 @@ public class Main {
         boolean rectangle3Same = rectangle3.IsTheSameRectangle(rectangle2);
 
         Rectangle.printRectanglesCount();
-        Rectangle.printClassName( false);
+        Rectangle.printClassName(false);
     }
 }

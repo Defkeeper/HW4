@@ -10,13 +10,13 @@ public class Rectangle {
     public Rectangle(double a, double b) {
         x = a;
         y = b;
-        createdRectangles ++;
+        createdRectangles++;
     }
 
     public Rectangle(double i) {
         this.x = i;
         this.y = i;
-        this.createdRectangles ++;
+        this.createdRectangles++;
     }
 
     double calculateArea() {
@@ -44,16 +44,18 @@ public class Rectangle {
         System.out.println(result);
         return result;
     }
-    public static void printRectanglesCount(){
+
+    public static void printRectanglesCount() {
         System.out.println("Создано прямоугольников: " + createdRectangles);
     }
-    public static boolean printClassName( boolean printlnRussian){
-        if ( printlnRussian == true ){
+
+    public static boolean printClassName(boolean printlnRussian) {
+        if (printlnRussian == true) {
             System.out.println("Название класса:" + Russian_Class_Name);
-        }else if (printlnRussian == false){
+        } else if (printlnRussian == false) {
             System.out.println("Class name is: " + English_Class_Name);
         }
-    return printlnRussian;
+        return printlnRussian;
     }
 }
 
