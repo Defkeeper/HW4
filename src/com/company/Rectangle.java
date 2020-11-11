@@ -26,7 +26,6 @@ public class Rectangle {
 
     double printArea() {
         double print = calculateArea();
-        System.out.println(calculateArea());
         return print;
     }
 
@@ -52,7 +51,7 @@ public class Rectangle {
     public static boolean printClassName(boolean printlnRussian) {
         if (printlnRussian == true) {
             System.out.println("Название класса:" + Russian_Class_Name);
-        } else if (printlnRussian == false) {
+        } else {
             System.out.println("Class name is: " + English_Class_Name);
         }
         return printlnRussian;
