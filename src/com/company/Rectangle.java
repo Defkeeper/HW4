@@ -48,13 +48,12 @@ public class Rectangle {
         System.out.println("Создано прямоугольников: " + createdRectangles);
     }
 
-    public static boolean printClassName(boolean printlnRussian) {
-        if (printlnRussian == true) {
+    public static void printClassName(boolean printlnRussian) {
+        if (printlnRussian) {
             System.out.println("Название класса:" + Russian_Class_Name);
         } else {
             System.out.println("Class name is: " + English_Class_Name);
         }
-        return printlnRussian;
     }
 }
 
